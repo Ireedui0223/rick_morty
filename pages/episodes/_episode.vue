@@ -10,6 +10,7 @@
       </v-card-title>
       <v-row>
         <v-col
+          class="index-2"
           cols="3"
           v-for="(character, index) in episode.characters"
           :key="index"

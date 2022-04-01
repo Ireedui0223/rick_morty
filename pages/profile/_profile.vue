@@ -1,6 +1,6 @@
 <template>
   <v-container class="align-center text-center d-flex justify-center">
-    <v-card class="px-6" width="100vh" v-if="character">
+    <v-card class="px-6 index-2" width="100vh" v-if="character">
       <v-card-title
         class="text-center d-flex align-center justify-center text-h4"
       >

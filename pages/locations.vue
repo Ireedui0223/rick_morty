@@ -6,15 +6,17 @@
   >
     <v-container>
       <nuxt-link to="/"> <v-btn>home</v-btn></nuxt-link>
-      <v-row>
+      <v-row class="index-5">
         <v-col
-          cols="3"
+          cols="4"
           v-for="location in locations.results"
           :key="location.id"
         >
           <v-card
+            elevation="6"
             @click="$router.push(`/location/${location.id || ''}`)"
-            color="rgb(122, 0, 42, 0.3)"
+            color="rgb(191, 128, 64, 0.8)"
+            class="pointer"
             ><v-card-title>{{ location.name }}</v-card-title>
           </v-card>
         </v-col>

@@ -1,8 +1,8 @@
 .pointer {
   cursor: pointer;
-
-  transition: 0.8s ease;
+  transition: 1s ease;
 }
+
 .pointer:hover {
   background-color: rgba(163, 154, 154, 0.719) !important;
   border-radius: 30px;
@@ -25,4 +25,19 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(138, 131, 131);
+}
+.index-1{
+  z-index: 1 !important;
+}
+.index-2{
+  z-index: 2 !important;
+}
+.index-3{
+  z-index: 3 !important;
+}
+.index-4{
+  z-index: 4 !important;
+}
+.index-5{
+  z-index: 5 !important;
 }

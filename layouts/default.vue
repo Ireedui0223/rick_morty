@@ -63,9 +63,12 @@
   }
 
   $particleBaseSize: 8;
-
+  $index: 3;
   @for $i from 1 through $particleNum {
     &:nth-child(#{$i}) {
+      position: fixed;
+      z-index: random($index);
+
       $circleSize: random($particleBaseSize);
       width: $circleSize + px;
       height: $circleSize + px;
